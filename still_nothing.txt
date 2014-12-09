@@ -1,0 +1,6 @@
+105_Веневской Николаевской_f0.3.geojson - Monastery, may not have geonames entry at all
+118_Волокопинежская_f0.6.geojson
+120_Волчья.geojson
+121_Волынцы_f0.7.geojson
+122_Вольная_f0.5.geojson
+126_Воронцовка.geojson
