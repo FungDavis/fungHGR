@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/core.css" media="screen"/>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pygment_trac.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/customization.css"/>
 
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -45,7 +46,7 @@
       <span class="banner-fix"></span>
 
       <section id="main_content">
-      <span id="nav">
+      <span id="nav" class="clear">
         <ul>
           {% for page in site.pages %}
           <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.disp_title }}</a></li>

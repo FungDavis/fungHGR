@@ -1,0 +1,10 @@
+#nav ul li {
+	float: left;
+	padding-right: .3em;
+}
+
+.clear:after {
+    clear: both;
+    content: "";
+    display: table;
+}
