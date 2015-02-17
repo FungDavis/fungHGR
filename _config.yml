@@ -3,4 +3,5 @@ name: Fung Library HGR
 description: Historical Gazetteer of Russia project out of Fung Library
 body: This site will be used to host some of the data collected as part of the Fung Library Historical Gazetteer of Russia project. Stay tuned!
 url: https://github.com/FungDavis/fungHGR
+baseurl: /fungHGR
 ---
