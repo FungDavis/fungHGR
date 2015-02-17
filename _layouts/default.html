@@ -48,7 +48,7 @@
       <span id="nav">
         <ul>
           {% for page in site.pages %}
-          <li><a href="{{ page.url }}">{{ page.disp_title }}</a></li>
+          <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.disp_title }}</a></li>
           {% endfor %}
         </ul>
       </span>
