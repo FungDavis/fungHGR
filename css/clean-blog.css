@@ -140,11 +140,6 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
-.backdrop {
-  /* Not part of original Clean Blog template */
-  background-color: rgba(0,0,0,0.6);
-  border-radius: 7px;
-}
 div.post-heading .backdrop {
   padding-left: .5em;
   padding-bottom: .5em;
