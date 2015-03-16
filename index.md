@@ -1,7 +1,7 @@
 ---
-title: Home | Historical Gazetteer of Russia
-disp_title: Home
-layout: default
+layout: page
+description: "Historical Gazetteer of Russia"
+lang: en
 ---
 
 Coming Soon!
