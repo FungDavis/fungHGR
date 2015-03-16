@@ -1,77 +1,16 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
+<html lang="en">
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/core.css" media="screen"/>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pygment_trac.css"/>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/customization.css"/>
+{% include head.html %}
 
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>{{ page.title }}</title>
-  </head>
+<body>
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/jaguillette/fungHGR">Fork Me on GitHub</a>
-    <div class="shell">
+    {% include nav.html %}
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
-            <h2>{{ site.description }}</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+    {{ content }}
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/jaguillette/fungHGR/zipball/master" class="zip"><em>download project</em> .ZIP</a>
-          <a href="https://github.com/jaguillette/fungHGR/tarball/master" class="tgz"><em>download project</em> .TGZ</a>
-        </span>
-      </section>
+    {% include footer.html %}
 
-      <span class="banner-fix"></span>
+</body>
 
-      <section id="main_content">
-      <span id="nav" class="clear">
-        <ul>
-          {% for page in site.pages %}
-          <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.disp_title }}</a></li>
-          {% endfor %}
-        </ul>
-      </span>
-	<!-- <div id="content"> -->
-	  {{ content }}
-	<!-- </div> -->
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/FungDavis">Fung Library</a> can be found on <a href="https://github.com/">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-	<p>Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="https://github.com/ZedThree/merlot-theme-jekyll">Merlot</a> theme.</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
-
-
-  </body>
 </html>

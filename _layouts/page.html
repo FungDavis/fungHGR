@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <div class="backdrop">
+                        {% if page.title %}<span class="subheading">{{ site.subtitle }}</span>{% endif %}
+                        <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                        <hr class="small">
+                        <span class="subheading">{{ page.description }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			{{ content }}
+            <p>Header images provided courtesy of the <a href="http://hcl.harvard.edu/libraries/maps/">Harvard Map Collection</a>. The map used was the <a href="http://pds.lib.harvard.edu/pds/view/21684875">Российский атлас, из сорока четырех карт состоящий и на сорок два наместничества империю разделяющий</a>, or Russian Atlas consisting of forty four divisions and forty two viceregencies of the Russian Empire.</p>
+		</div>
+	</div>
+</div>
+
+<hr>

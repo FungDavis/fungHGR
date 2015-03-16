@@ -14,3 +14,7 @@ body {
 .popupTable tr td:first-child {
 	font-weight: bold;
 }
+
+#sidebar h1,h2,h3 {
+	font-family: 'Playfair Display', serif;
+}
