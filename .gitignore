@@ -8,3 +8,4 @@ old
 Gemfile*
 _site
 offline/
+node_modules

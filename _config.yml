@@ -1,15 +1,15 @@
 # Site settings
-title: HGR
-subtitle: Historical Gazetteer of Russia
+title: Toponimika
+subtitle: Mapping Russian historical place names
 header-img: img/site_bg.png
 email: jaguillette@gmail.com
 description: "Bringing historical texts into the digital age"
 baseurl: "/fungHGR"
 url: "http://FungDavis.github.io/fungHGR"
-#twitter_username: SBootstrap
+twitter_username: FungLibrary
 github_username:  FungDavis
-#facebook_username:  IronSummitMedia
-attrib: President and Fellows of Harvard College
+#facebook_username:  NA
+copy_statement: "President and Fellows of Harvard College"
 
 # Build settings
 markdown: kramdown
