@@ -63,7 +63,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background-color: rgba(0,0,0,0.6); /* Not part of original Clean Blog template */
+    background: transparent;
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
@@ -139,11 +139,6 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
-}
-.backdrop {
-  /* Not part of original Clean Blog template */
-  background-color: rgba(0,0,0,0.6);
-  border-radius: 7px;
 }
 div.post-heading .backdrop {
   padding-left: .5em;
