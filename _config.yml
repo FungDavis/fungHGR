@@ -1,0 +1,19 @@
+# Site settings
+title: HGR
+subtitle: Historical Gazetteer of Russia
+header-img: img/site_bg.png
+email: jaguillette@gmail.com
+description: "Bringing historical texts into the digital age"
+baseurl: "/fungHGR"
+url: "http://FungDavis.github.io/fungHGR"
+#twitter_username: SBootstrap
+github_username:  FungDavis
+#facebook_username:  IronSummitMedia
+attrib: President and Fellows of Harvard College
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+#paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

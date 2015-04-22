@@ -3,3 +3,8 @@ old/
 imperiia/
 .git.bfg-report/
 shapefiles/
+local
+old
+Gemfile*
+_site
+offline/
