@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "Historical Gazetteer of Russia"
+description: "Building a historical gazetteer of Russia"
 lang: en
 ---
 
