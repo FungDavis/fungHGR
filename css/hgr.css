@@ -42,3 +42,8 @@ nav.is-fixed:not(.is-visible) .topnav:hover > ul {
 .bibliography, .foot_desc {
 	font-size: 14px;
 }
+
+.backdrop {
+	background-color: rgba(0,0,0,0.35);
+	 border-radius: 7px;
+}
