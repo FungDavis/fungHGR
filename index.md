@@ -10,7 +10,7 @@ The Historical Gazetteer of Russia project explores best practices for extractin
   
 For a general overview of the project, check out our [About]({{ site.baseurl }}pg01.html) page. If you want to jump right in to either [Geocoding]({{ site.baseurl }}pg02.html) or [Text Processing]({{ site.baseurl }}pg03.html), then check out those pages. If you really want to get into the nuts and bolts of the project, then go ahead and [fork us on GitHub](https://github.com/jaguillette/fungHGR). Don't forget to go to our [Team]({{ site.baseurl }}pg04.html) page to see the people who brought this project to fruition.
 
-<!--
+<!-- Paginator code, saving for a rainy day full of blog posts.
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
