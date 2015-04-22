@@ -1,6 +1,7 @@
 <!-- Footer -->
 <footer>
     <div class="container">
+        <p class="foot_desc">Header images provided courtesy of the <a href="http://hcl.harvard.edu/libraries/maps/">Harvard Map Collection</a>. The map used was the <a href="http://pds.lib.harvard.edu/pds/view/21684875">Российский атлас, из сорока четырех карт состоящий и на сорок два наместничества империю разделяющий</a>, or Russian Atlas consisting of forty four divisions and forty two viceregencies of the Russian Empire.</p>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
@@ -43,14 +44,11 @@
                     </li>
                     {% endif %}
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
+                <p class="copyright text-muted">Copyright &copy; {{ site.copy_statement }} {{ site.time | date: '%Y' }}</p>
             </div>
         </div>
     </div>
 </footer>
-
-<!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>

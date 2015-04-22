@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 800;
 }
 a {
@@ -47,7 +47,7 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -58,9 +58,12 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+.navbar-langlink {
+  font-size: 12px;
+}
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: transparent;
+    background-color: rgba(0,0,0,0.6); /* Not part of original Clean Blog template */
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
@@ -137,6 +140,15 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
+.backdrop {
+  /* Not part of original Clean Blog template */
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 7px;
+}
+div.post-heading .backdrop {
+  padding-left: .5em;
+  padding-bottom: .5em;
+}
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
@@ -164,7 +176,8 @@ hr.small {
   font-size: 24px;
   line-height: 1.1,
 			display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -183,7 +196,8 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
