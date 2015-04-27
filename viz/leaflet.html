@@ -1,0 +1,133 @@
+---
+title: Market Town Map
+parent: Visualizations
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Словарь учрежденных в России ярмарок и торгов | Dictionary of Fairs and Trades established in Russia</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Leaflet CSS-->
+	<link rel="stylesheet" href="http://leafletjs.com/dist/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/leaflet_test_style.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/leaflet-sidebar.css">
+
+	<!--Custom Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic&amp;subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!--GeoJson Data File-->
+	<link rel="points" type="application/json" href="https://rawgit.com/jaguillette/fungHGR/master/output/enhanced_dataset.geojson">
+
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+</head>
+<body>
+	<div id="sidebar" class="sidebar">
+		<ul class="sidebar-tabs" role="tablist">
+			<li id="homeTab" class="active"><a href="#home" role="tab"><i class="fa fa-question"></i></a></li>
+			<li id="locTab"><a href="#location" role="tab"><i class="fa fa-map-marker"></i></a></li>
+		</ul>
+		<div class="sidebar-content">
+			<div class="sidebar-pane active" id="home">
+				<h1 id="homeTitle">Welcome to the Historical Gazetteer of Russia!</h1>
+				<p>We have displayed here the results of months of effort in assigning coordinates to cities and towns mentioned in <a href="http://catalog.hathitrust.org/Record/006277212">Словарь учрежденных в России ярмарок</a>, or A Dictionary of of Market Fairs Established in Russia. Each map marker has information about trading that took place in that town in the late 1700s, towards the end of the reign of Catherine the Great.</p>
+				<p>What you are looking at is a collection of the entries from this text that were able to have coordinates assigned to them. The different colors of the icons represent the administrative division that they fall under, while their size reflects how much the text had to say about them. As you move around the map, click on different markers to bring up their descriptions from the source text, complete with links to a digital copy of the original document.</p>
+				<p>If you'd like to know more about this project, or how we came to assign these coordinates to these places, check out our website at <a href="http://jaguillette.github.io/fungHGR/">http://jaguillette.github.io/fungHGR/</a></p>
+			</div>
+			<div class="sidebar-pane" id="location">
+				<h1 id="locTitle">Location</h1>
+				<h2 id="admin1"></h2>
+				<p id="initDesc">If you click on a map marker, information about it will appear here.</p>
+				<h3>Description (Russian)</h2>
+				<p id="locDescRu"></p>
+				<h3>Description (English, machine-translated)</h2>
+				<p id="locDescEn"></p>
+				<h3>Original Text</h2>
+				<p id="txtLink">
+					<a href="#"></a>
+				</p>
+				<h3>GeoNames Place</h2>
+				<p id="geoLink">
+					<a href="#"></a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="map" class="sidebar-map"></div>
+
+	<script src="http://leafletjs.com/dist/leaflet.js"></script>
+	<script type="text/javascript" src="../../js/leaflet-sidebar.js"></script>
+	<script>
+
+		/*mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+		wholink = '<a href="http://stamen.com">Stamen Design</a>';
+		var tiles = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
+			attribution: '&copy; '+mapLink+' Contributors & '+wholink,
+			maxZoom: 18,
+		});*/
+		/*var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		});*/
+		var tiles = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+			attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+			maxZoom: 16
+		});
+
+		var colorLookup = {1:"#D5812E",2:"#A768E6",3:"#58E0C1",4:"#323449",5:"#6CD941",6:"#E23A80",7:"#ABB1DB",8:"#384E21",9:"#BDD977",10:"#B27E86",11:"#8F351D",12:"#D5AB7A",13:"#514285",14:"#539675",15:"#4B281F",16:"#539236",17:"#DB4621",18:"#68DA85",19:"#6C7BD8",20:"#DBB540",21:"#8F3247",22:"#A8DBD5",23:"#C9DB3F",24:"#537195",25:"#7E5C31",26:"#D1785F",27:"#898837",28:"#DC4AD3",29:"#DD454F",30:"#C4D9A5",31:"#DDC1BF",32:"#D498D2",33:"#61B7D6",34:"#A357B1",35:"#522046",36:"#849389",37:"#3B524B",38:"#DD6F91",39:"#B4368A",41:"#8F547C"}
+
+		$.getJSON($('link[rel="points"]').attr("href"), function(data) {
+			var geojson = L.geoJson(data, {
+				pointToLayer: function (feature, latlng) {
+					var marker = L.circleMarker(latlng, {
+						radius: Math.sqrt(feature.properties.description_new_orth.length)/3,
+						fillColor: colorLookup[feature.properties.admin1_partofID],
+						color: "#fff",
+						weight: 1,
+						opacity: 1,
+						fillOpacity: 0.8
+					})
+					function OnMarkerClick(e) {
+						$("#sidebar").removeClass('collapsed');
+						$(".sidebar-pane").removeClass('active');
+						$(".sidebar-tabs > li").removeClass('active');
+						$("#initDesc").remove();
+						$("#location").addClass('active');
+						$("#locTab").addClass('active');
+						$("#locTitle").text(feature.properties.name_new_orth+" ("+feature.properties.name_new_orth_lc+")");
+						$("#locDescRu").text(feature.properties.description_new_orth);
+						$("#locDescEn").text(feature.properties.desc_machine_translated);
+						$("#admin1").text(feature.properties.admin1_std_name);
+						$("#txtLink > a").text(feature.properties.SOURCE);
+						$("#txtLink > a").attr("href",feature.properties.SOURCE);
+						$("#txtLink > a").attr("target","_blank");
+						$("#geoLink > a").text(feature.properties.geo.geonameId);
+						$("#geoLink > a").attr("href",feature.properties.geo.geonameId);
+						$("#geoLink > a").attr("target","_blank");
+					}
+					marker.on('click',OnMarkerClick);
+					function ResizeMarker(e) {
+						var currentZoom = map.getZoom();
+						marker.setradius(currentZoom*(Math.sqrt(feature.properties.description_new_orth.length)/3));
+					}
+					/**/
+					return marker
+			}});
+			var map = L.map('map').fitBounds(geojson.getBounds(),{paddingTopLeft:[500,0]});
+			tiles.addTo(map);
+			geojson.addTo(map);
+			var sidebar = L.control.sidebar('sidebar').addTo(map);
+			function OnMapClick(e) {
+				$("#sidebar-pane").removeClass('active');
+				$(".sidebar-tabs > li").removeClass('active');
+				$("#sidebar").addClass('collapsed');
+			}
+			map.on('click',OnMapClick)
+		});
+	</script>
+
+</body>
+</html>

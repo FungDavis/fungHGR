@@ -1,0 +1,37 @@
+---
+title: Trade Goods (General)
+parent: Visualizations
+---
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>General goods traded in Russia, 1788</title>
+		<meta charset="utf-8">
+		<!-- D3 -->
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/good_types_chart.css">
+	</head>
+	<body>
+		<svg class="chart"></svg>
+		<script type="text/javascript">
+			var filename = "../gen_by_prov.csv",
+				margin = {top: 20, right: 110, bottom: 120, left: 40}
+				desc = [
+				"This stacked bar chart shows the kinds of goods traded across the Russian Empire",
+				"in the late 1700s. Hovering over portions of the graph will highlight the areas",
+				"involved in trading those goods. For instance, hovering over the name of a Viceroyalty",
+				"will show you the goods that that area traded in. Hovering over a color will highlight",
+				"both the name of the area that it represents and all other goods traded by that area.",
+				"Hovering over any of the goods along the x axis will highlight the name of every area",
+				"that trades in that good, as well as all other goods traded by those areas."]
+				title = "Trade Goods (General)";
+		</script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/good_types_chart.js"></script>
+	</body>
+</html>
