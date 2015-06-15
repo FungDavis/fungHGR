@@ -1,0 +1,40 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "83",
+      "adminName1": "Vladimir",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 548278,
+      "lat": "56.15273",
+      "lng": "38.85509",
+      "name": "Kirzhach",
+      "population": 30566,
+      "toponymName": "Kirzhach"
+    },
+    {
+      "adminCode1": "83",
+      "adminName1": "Vladimir",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 548279,
+      "lat": "55.90053",
+      "lng": "39.07296",
+      "name": "Kirzhach",
+      "population": 340,
+      "toponymName": "Kirzhach"
+    }
+  ],
+  "totalResultsCount": 2,
+  "url": "http://api.geonames.org/search?south=54.9145&east=43.3445&type=json&north=57.246&name=%D0%9A%D0%B8%D1%80%D0%B6%D0%B0%D1%87%D1%8C&username=jaguillette&featureClass=P&west=37.8508&fuzzy=1"
+}

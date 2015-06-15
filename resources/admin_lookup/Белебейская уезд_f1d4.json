@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "08",
+      "adminName1": "Bashkortostan",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 578120,
+      "lat": "54.11667",
+      "lng": "54.11667",
+      "name": "Belebey",
+      "population": 62582,
+      "toponymName": "Belebey"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=50.733333&east=59.966667&type=json&north=58.733333&name=%D0%91%D0%B5%D0%BB%D0%B5%D0%B1%D0%B5%D0%B9&username=jaguillette&featureClass=P&west=51.966667&fuzzy=1"
+}

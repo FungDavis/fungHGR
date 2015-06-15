@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "85",
+      "adminName1": "Vologda",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 481960,
+      "lat": "59.97375",
+      "lng": "42.76487",
+      "name": "Tot'ma",
+      "population": 10500,
+      "toponymName": "Tot\u2019ma"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=58.4716&east=59.4701&type=json&north=64.5238&name=%D0%A2%D0%BE%D1%82%D1%8C%D0%BC%D0%B0&username=jaguillette&featureClass=P&west=38.3571&fuzzy=1"
+}

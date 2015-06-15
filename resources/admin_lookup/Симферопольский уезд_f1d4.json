@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "11",
+      "adminName1": "Crimea",
+      "countryCode": "UA",
+      "countryId": "690791",
+      "countryName": "Ukraine",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPLA",
+      "fcodeName": "seat of a first-order administrative division",
+      "geonameId": 693805,
+      "lat": "44.95719",
+      "lng": "34.11079",
+      "name": "Simferopol",
+      "population": 358108,
+      "toponymName": "Simferopol"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=42.57&east=38.97&type=json&north=47.9&name=%D0%A1%D0%B8%D0%BC%D1%84%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C&username=jaguillette&featureClass=P&west=29.29&fuzzy=1"
+}

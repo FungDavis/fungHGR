@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "69",
+      "adminName1": "Smolensk",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 501283,
+      "lat": "53.95278",
+      "lng": "32.86389",
+      "name": "Roslavl'",
+      "population": 56971,
+      "toponymName": "Roslavl\u2019"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=50.782778&east=36.045278&type=json&north=58.782778&name=%D0%A0%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C&username=jaguillette&featureClass=P&west=28.045278000000003&fuzzy=1"
+}

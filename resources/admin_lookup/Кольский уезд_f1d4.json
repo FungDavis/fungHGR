@@ -1,0 +1,40 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "49",
+      "adminName1": "Murmansk",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 546554,
+      "lat": "68.88062",
+      "lng": "33.01842",
+      "name": "Kola",
+      "population": 10600,
+      "toponymName": "Kola"
+    },
+    {
+      "adminCode1": "19",
+      "adminName1": "Lapland",
+      "countryCode": "FI",
+      "countryId": "660013",
+      "countryName": "Finland",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 651896,
+      "lat": "69.41667",
+      "lng": "27.73333",
+      "name": "Kola",
+      "population": 0,
+      "toponymName": "Kola"
+    }
+  ],
+  "totalResultsCount": 2,
+  "url": "http://api.geonames.org/search?south=60.3600075373&east=58.6121673584&type=json&north=70.1894276115&name=%D0%9A%D0%BE%D0%BB%D0%B0&username=jaguillette&featureClass=P&west=27.4506621361&fuzzy=1"
+}

@@ -1,0 +1,40 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "46",
+      "adminName1": "Mordoviya",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 483151,
+      "lat": "54.57112",
+      "lng": "46.02559",
+      "name": "Tetyushi",
+      "population": 0,
+      "toponymName": "Tetyushi"
+    },
+    {
+      "adminCode1": "73",
+      "adminName1": "Tatarstan",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 483150,
+      "lat": "54.93821",
+      "lng": "48.83656",
+      "name": "Tetyushi",
+      "population": 11826,
+      "toponymName": "Tetyushi"
+    }
+  ],
+  "totalResultsCount": 2,
+  "url": "http://api.geonames.org/search?south=51.790833&east=53.114444&type=json&north=59.790833&name=%D0%A2%D0%B5%D1%82%D1%8E%D1%88%D0%B8&username=jaguillette&featureClass=P&west=45.114444&fuzzy=1"
+}

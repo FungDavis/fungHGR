@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "71",
+      "adminName1": "Sverdlovsk",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 1504769,
+      "lat": "56.84278",
+      "lng": "62.71111",
+      "name": "Kamyshlov",
+      "population": 28006,
+      "toponymName": "Kamyshlov"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=55.22&east=65.27&type=json&north=61.8&name=%D0%9A%D0%B0%D0%BC%D1%8B%D1%88%D0%BB%D0%BE%D0%B2&username=jaguillette&featureClass=P&west=50.56&fuzzy=1"
+}

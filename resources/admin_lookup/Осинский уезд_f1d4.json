@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "90",
+      "adminName1": "Perm",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 514706,
+      "lat": "57.283",
+      "lng": "55.4589",
+      "name": "Osa",
+      "population": 23292,
+      "toponymName": "Osa"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=55.22&east=65.27&type=json&north=61.8&name=%D0%9E%D1%81%D0%B0&username=jaguillette&featureClass=P&west=50.56&fuzzy=1"
+}

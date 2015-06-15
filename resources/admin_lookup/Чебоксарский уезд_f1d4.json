@@ -1,0 +1,40 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "16",
+      "adminName1": "Chuvashia",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPLA",
+      "fcodeName": "seat of a first-order administrative division",
+      "geonameId": 569696,
+      "lat": "56.13222",
+      "lng": "47.25194",
+      "name": "Cheboksary",
+      "population": 446781,
+      "toponymName": "Cheboksary"
+    },
+    {
+      "adminCode1": "16",
+      "adminName1": "Chuvashia",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPLX",
+      "fcodeName": "section of populated place",
+      "geonameId": 6198442,
+      "lat": "56.17534",
+      "lng": "47.2914",
+      "name": "Cheboksary",
+      "population": 0,
+      "toponymName": "Oktjabrski"
+    }
+  ],
+  "totalResultsCount": 2,
+  "url": "http://api.geonames.org/search?south=51.790833&east=53.114444&type=json&north=59.790833&name=%D0%A7%D0%B5%D0%B1%D0%BE%D0%BA%D1%81%D0%B0%D1%80%D1%8B&username=jaguillette&featureClass=P&west=45.114444&fuzzy=1"
+}

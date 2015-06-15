@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "21",
+      "adminName1": "V\u00f5rumaa",
+      "countryCode": "EE",
+      "countryId": "453733",
+      "countryName": "Estonia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPLA",
+      "fcodeName": "seat of a first-order administrative division",
+      "geonameId": 587450,
+      "lat": "57.83389",
+      "lng": "27.01944",
+      "name": "V\u00f5ru",
+      "population": 14631,
+      "toponymName": "V\u00f5ru"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=52.9475&east=28.106944&type=json&north=60.9475&name=%D0%92%D0%B5%D1%80%D1%80%D0%BE&username=jaguillette&featureClass=P&west=20.106944&fuzzy=1"
+}

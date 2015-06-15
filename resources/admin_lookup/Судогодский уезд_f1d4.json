@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "83",
+      "adminName1": "Vladimir",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 486834,
+      "lat": "55.95394",
+      "lng": "40.86291",
+      "name": "Sudogda",
+      "population": 13277,
+      "toponymName": "Sudogda"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=54.9145&east=43.3445&type=json&north=57.246&name=%D0%A1%D1%83%D0%B4%D0%BE%D0%B3%D0%B4%D0%B0&username=jaguillette&featureClass=P&west=37.8508&fuzzy=1"
+}

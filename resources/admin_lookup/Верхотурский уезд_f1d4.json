@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "71",
+      "adminName1": "Sverdlovsk",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 1487219,
+      "lat": "58.86271",
+      "lng": "60.80536",
+      "name": "Verkhotur'ye",
+      "population": 8500,
+      "toponymName": "Verkhotur\u2019ye"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=55.22&east=65.27&type=json&north=61.8&name=%D0%92%D0%B5%D1%80%D1%85%D0%BE%D1%82%D1%83%D1%80%D1%8C%D0%B5&username=jaguillette&featureClass=P&west=50.56&fuzzy=1"
+}

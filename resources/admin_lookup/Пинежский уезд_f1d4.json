@@ -1,0 +1,40 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "06",
+      "adminName1": "Arkhangelskaya",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 509483,
+      "lat": "64.69969",
+      "lng": "43.39016",
+      "name": "Pinega",
+      "population": 3620,
+      "toponymName": "Pinega"
+    },
+    {
+      "adminCode1": "06",
+      "adminName1": "Arkhangelskaya",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 477998,
+      "lat": "64.1408",
+      "lng": "41.928",
+      "name": "Ust'-Pinega",
+      "population": 0,
+      "toponymName": "Ust\u2019-Pinega"
+    }
+  ],
+  "totalResultsCount": 2,
+  "url": "http://api.geonames.org/search?south=60.3600075373&east=58.6121673584&type=json&north=70.1894276115&name=%D0%9F%D0%B8%D0%BD%D0%B5%D0%B3%D0%B0&username=jaguillette&featureClass=P&west=27.4506621361&fuzzy=1"
+}

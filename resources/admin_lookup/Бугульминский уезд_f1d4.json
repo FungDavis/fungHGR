@@ -1,0 +1,57 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "73",
+      "adminName1": "Tatarstan",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 571170,
+      "lat": "54.5378",
+      "lng": "52.7985",
+      "name": "Bugul'ma",
+      "population": 91900,
+      "toponymName": "Bugul\u2019ma"
+    },
+    {
+      "adminCode1": "73",
+      "adminName1": "Tatarstan",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 531720,
+      "lat": "54.51045",
+      "lng": "52.88689",
+      "name": "Malaya Bugul'ma",
+      "population": 0,
+      "toponymName": "Malaya Bugul\u2019ma"
+    },
+    {
+      "adminCode1": "55",
+      "adminName1": "Orenburg",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPLQ",
+      "fcodeName": "abandoned populated place",
+      "geonameId": 7590749,
+      "lat": "53.5696",
+      "lng": "53.1244",
+      "name": "Bugul\u2019ma",
+      "population": 0,
+      "toponymName": "Bugul\u2019ma"
+    }
+  ],
+  "totalResultsCount": 3,
+  "url": "http://api.geonames.org/search?south=50.733333&east=59.966667&type=json&north=58.733333&name=%D0%91%D1%83%D0%B3%D1%83%D0%BB%D1%8C%D0%BC%D0%B0&username=jaguillette&featureClass=P&west=51.966667&fuzzy=1"
+}

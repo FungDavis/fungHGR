@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "75",
+      "adminName1": "Tomsk",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPLA",
+      "fcodeName": "seat of a first-order administrative division",
+      "geonameId": 1489425,
+      "lat": "56.49771",
+      "lng": "84.97437",
+      "name": "Tomsk",
+      "population": 485519,
+      "toponymName": "Tomsk"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=53.98&east=114.0&type=json&north=77.44&name=%D0%A2%D0%BE%D0%BC%D1%81%D0%BA%D1%8A&username=jaguillette&featureClass=P&west=50.85&fuzzy=1"
+}

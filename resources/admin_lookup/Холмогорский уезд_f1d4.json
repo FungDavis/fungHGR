@@ -1,0 +1,57 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "06",
+      "adminName1": "Arkhangelskaya",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 549748,
+      "lat": "64.2229",
+      "lng": "41.656",
+      "name": "Kholmogory",
+      "population": 4417,
+      "toponymName": "Kholmogory"
+    },
+    {
+      "adminCode1": "06",
+      "adminName1": "Arkhangelskaya",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPLA",
+      "fcodeName": "seat of a first-order administrative division",
+      "geonameId": 581049,
+      "lat": "64.5401",
+      "lng": "40.5433",
+      "name": "Arkhangelsk",
+      "population": 356051,
+      "toponymName": "Arkhangel\u2019sk"
+    },
+    {
+      "adminCode1": "06",
+      "adminName1": "Arkhangelskaya",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 546394,
+      "lat": "64.9606",
+      "lng": "46.2752",
+      "name": "Kolmogory",
+      "population": 0,
+      "toponymName": "Kolmogora"
+    }
+  ],
+  "totalResultsCount": 3,
+  "url": "http://api.geonames.org/search?south=60.3600075373&east=58.6121673584&type=json&north=70.1894276115&name=%D0%A5%D0%BE%D0%BB%D0%BC%D0%BE%D0%B3%D0%BE%D1%80%D1%8B&username=jaguillette&featureClass=P&west=27.4506621361&fuzzy=1"
+}

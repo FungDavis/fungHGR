@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "37",
+      "adminName1": "Kostroma",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 554502,
+      "lat": "57.78704",
+      "lng": "43.19029",
+      "name": "Kadyy",
+      "population": 3783,
+      "toponymName": "Kadyy"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=53.766667&east=44.933333&type=json&north=61.766667&name=%D0%9A%D0%B0%D0%B4%D1%8B%D0%B9&username=jaguillette&featureClass=P&west=36.933333&fuzzy=1"
+}

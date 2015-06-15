@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "54",
+      "adminName1": "Omsk",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPLA",
+      "fcodeName": "seat of a first-order administrative division",
+      "geonameId": 1496153,
+      "lat": "54.99244",
+      "lng": "73.36859",
+      "name": "Omsk",
+      "population": 1129281,
+      "toponymName": "Omsk"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=53.98&east=114.0&type=json&north=77.44&name=%D0%9E%D0%BC%D1%81%D0%BA%D1%8A&username=jaguillette&featureClass=P&west=50.85&fuzzy=1"
+}

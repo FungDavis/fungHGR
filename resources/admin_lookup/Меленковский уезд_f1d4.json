@@ -1,0 +1,40 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "83",
+      "adminName1": "Vladimir",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 527740,
+      "lat": "55.3343",
+      "lng": "41.6295",
+      "name": "Melenki",
+      "population": 15902,
+      "toponymName": "Melenki"
+    },
+    {
+      "adminCode1": "51",
+      "adminName1": "Nizjnij Novgorod",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 527739,
+      "lat": "55.9436",
+      "lng": "42.9855",
+      "name": "Melenki",
+      "population": 0,
+      "toponymName": "Melenki"
+    }
+  ],
+  "totalResultsCount": 2,
+  "url": "http://api.geonames.org/search?south=54.9145&east=43.3445&type=json&north=57.246&name=%D0%9C%D0%B5%D0%BB%D0%B5%D0%BD%D0%BA%D0%B8&username=jaguillette&featureClass=P&west=37.8508&fuzzy=1"
+}

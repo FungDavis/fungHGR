@@ -1,0 +1,23 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "52",
+      "adminName1": "Novgorod",
+      "countryCode": "RU",
+      "countryId": "2017370",
+      "countryName": "Russia",
+      "fcl": "P",
+      "fclName": "city, village,...",
+      "fcode": "PPL",
+      "fcodeName": "populated place",
+      "geonameId": 491370,
+      "lat": "58.66667",
+      "lng": "34.25",
+      "name": "Sofiya",
+      "population": 0,
+      "toponymName": "Sofiya"
+    }
+  ],
+  "totalResultsCount": 1,
+  "url": "http://api.geonames.org/search?south=55.93863&east=34.31413&type=json&north=63.93863&name=%D0%A1%D0%BE%D1%84%D1%96%D1%8F&username=jaguillette&featureClass=P&west=26.31413&fuzzy=1"
+}
