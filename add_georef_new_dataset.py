@@ -1,4 +1,4 @@
-import sys, json, requests
+import sys, json, requests, datetime
 try:
 	import sh
 	shell=True
@@ -31,6 +31,7 @@ dataset[HGR_ID]['geo']['y_coord'] = geoinfo['lat']
 dataset[HGR_ID]['geo']['coded'] = "manually"
 dataset[HGR_ID]['geo']['country_code'] = geoinfo['countryCode']
 dataset[HGR_ID]['geo']['pres_loc'] = "{}, {}".format(geoinfo['name'],geoinfo['adminName1'])
+dataset[HGR_ID]['query_datetime'] = datetime.datetime.strftime(datetime.datetime.now(),"%Y-%m-%dT%H:%M:%S")
 
 with open(dataset_file,'w',encoding='utf-8') as fp:
 	json.dump(dataset,fp,sort_keys=True,indent=2)
