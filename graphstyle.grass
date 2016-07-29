@@ -1,0 +1,123 @@
+node {
+  diameter: 50px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+  caption: '<id>';
+}
+
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: '<type>';
+}
+
+node.Person {
+  color: #68BDF6;
+  border-color: #5CA8DB;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.Movie {
+  color: #6DCE9E;
+  border-color: #60B58B;
+  text-color-internal: #FFFFFF;
+  caption: '{title}';
+}
+
+node.Venue {
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.City {
+  color: #DE9BF9;
+  border-color: #BF85D6;
+  text-color-internal: #FFFFFF;
+  caption: '{name}';
+}
+
+node.Author {
+  color: #FB95AF;
+  border-color: #E0849B;
+  text-color-internal: #FFFFFF;
+  caption: '{firstname}';
+}
+
+node.User {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{username}';
+}
+
+node.Email {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{id}';
+}
+
+node.Place {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{title}';
+  diameter: 65px;
+}
+
+node.Product {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{productName}';
+}
+
+node.Category {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{categoryName}';
+}
+
+relationship.PART_OF {
+  caption: '<type>';
+}
+
+node.ADM1 {
+  color: #FF756E;
+  border-color: #E06760;
+  text-color-internal: #FFFFFF;
+  diameter: 80px;
+}
+
+node.ADM2 {
+  color: #FB95AF;
+  border-color: #E0849B;
+  text-color-internal: #FFFFFF;
+  diameter: 65px;
+}
+
+node.PPL {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  diameter: 50px;
+}
+
+node.Classification {
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  text-color-internal: #FFFFFF;
+  caption: '{romanizedFeatureType}';
+}
+
