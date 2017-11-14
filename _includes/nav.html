@@ -17,16 +17,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-            {% if page.lang == 'en' %}
                 <li>
-                    <a href="{{ site.baseurl }}/en">Home</a>
+                    <a href="{{ site.baseurl }}">Home</a>
                 </li>
-            {% endif %}
-            {% if page.lang == 'ru' %}
-                <li>
-                    <a href="{{ site.baseurl }}/ru">Home</a>
-                </li>
-            {% endif %}
                 {% for site_page in site.pages %}{% if site_page.title and site_page.lang == page.lang %}
                 <li class="topnav">
                     <a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a>
