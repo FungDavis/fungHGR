@@ -1,5 +1,5 @@
 ---
-title: null
+title: ""
 layout: page
 description: "Building a historical gazetteer of Russia"
 lang: en
