@@ -17,9 +17,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="{{ site.baseurl }}">Home</a>
-                </li>
                 {% for site_page in site.pages %}{% if site_page.title and site_page.lang == page.lang %}
                 <li class="topnav">
                     <a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a>
